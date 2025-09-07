@@ -1,0 +1,234 @@
+/* NotFound.css */
+
+.not-found-container {
+  font-family: 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', monospace;
+  background-color: #282a36;
+  color: #f8f8f2;
+  min-height: 100vh;
+  padding: 20px;
+  margin: 0;
+  overflow: hidden;
+}
+
+.terminal-window {
+  background-color: #44475a;
+  border-radius: 8px 8px 0 0;
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.terminal-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.terminal-button {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.terminal-button--close {
+  background-color: #ff5555;
+}
+
+.terminal-button--minimize {
+  background-color: #f1fa8c;
+}
+
+.terminal-button--maximize {
+  background-color: #50fa7b;
+}
+
+.terminal-title {
+  font-size: 14px;
+  color: #f8f8f2;
+  font-weight: bold;
+}
+
+.terminal-time {
+  font-size: 12px;
+  color: #6272a4;
+}
+
+.terminal-body {
+  background-color: #282a36;
+  padding: 20px;
+  min-height: calc(100vh - 80px);
+  border-radius: 0 0 8px 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+.ascii-art {
+  color: #ff5555;
+  font-size: 16px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.error-messages {
+  margin-bottom: 30px;
+}
+
+.command-line {
+  color: #ff5555;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.command-prompt {
+  color: #6272a4;
+}
+
+.error-output {
+  color: #ff5555;
+  margin-bottom: 10px;
+}
+
+.success-output {
+  color: #50fa7b;
+  margin-bottom: 20px;
+}
+
+.main-error-message {
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 2px solid #ff5555;
+  border-radius: 8px;
+  background-color: rgba(255, 85, 85, 0.1);
+}
+
+.error-title {
+  font-size: 24px;
+  color: #ff5555;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.error-description {
+  font-size: 16px;
+  color: #f8f8f2;
+  margin-bottom: 10px;
+}
+
+.error-note {
+  font-size: 14px;
+  color: #6272a4;
+}
+
+.available-commands {
+  margin-bottom: 30px;
+  padding: 15px;
+  background-color: rgba(68, 71, 90, 0.3);
+  border-radius: 8px;
+  border: 1px solid #44475a;
+}
+
+.commands-title {
+  color: #8be9fd;
+  font-size: 16px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.command-item {
+  margin-bottom: 10px;
+}
+
+.command-item:last-child {
+  margin-bottom: 0;
+}
+
+.command-name {
+  color: #50fa7b;
+  margin-left: 8px;
+}
+
+.command-description {
+  color: #f8f8f2;
+  margin-left: 20px;
+}
+
+.command-description--alt {
+  margin-left: 35px;
+}
+
+.command-description--help {
+  margin-left: 32px;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.btn {
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.3s ease;
+}
+
+.btn--primary {
+  background-color: #50fa7b;
+  color: #282a36;
+}
+
+.btn--primary:hover {
+  background-color: #5af78e;
+  transform: translateY(-2px);
+}
+
+.btn--secondary {
+  background-color: transparent;
+  color: #8be9fd;
+  border: 2px solid #8be9fd;
+}
+
+.btn--secondary:hover {
+  background-color: #8be9fd;
+  color: #282a36;
+  transform: translateY(-2px);
+}
+
+.bottom-terminal {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+}
+
+.bottom-command {
+  color: #6272a4;
+  font-size: 16px;
+}
+
+.bottom-echo {
+  color: #f1fa8c;
+  margin-left: 8px;
+}
+
+.blinking-cursor {
+  color: #50fa7b;
+  transition: opacity 0.1s ease;
+}
+
+.blinking-cursor--visible {
+  opacity: 1;
+}
+
+.blinking-cursor--hidden {
+  opacity: 0;
+}

@@ -1,0 +1,554 @@
+{
+    "profile": {
+        "name": "Sabina Huseynzada",
+        "title": "Full-Stack Developer",
+        "location": "Baku, Azerbaijan",
+        "experience": "none! PLEASE HIRE ME",
+        "status": "Open to new opportunities",
+        "currentFocus": "React, Node.js"
+    },
+    "contact": {
+        "email": "sebine.huseyn0@gmail.com",
+        "github": "https://github.com/deceaseblow",
+        "linkedin": "https://www.linkedin.com/in/sabina-huseynzada-52824524b/",
+        "website": "@@@@@",
+        "phone": "you thought!!!",
+        "resume": "website/sabina_cv.pdf"
+    },
+    "projects": [
+        {
+            "title": "🏡 Airbnb Clone",
+            "desc": "Full-stack Airbnb clone with booking and listing functionality",
+            "tech": "React • Node.js • Express • Render • CSS/Tailwind",
+            "github": "https://github.com/deceaseblow/AirBnb"
+        },
+        {
+            "title": "📚 Libraff",
+            "desc": "Book library management app with CRUD-like operations",
+            "tech": "React • Node.js • Express • Render • CSS/Tailwind",
+            "github": "https://github.com/deceaseblow/Libraff"
+        },
+        {
+            "title": "🍕 PapaJohns Clone",
+            "desc": "Frontend clone of the Papa John’s website with interactive UI",
+            "tech": "HTML • CSS • JavaScript • Bootstrap",
+            "github": "https://github.com/deceaseblow/papaJohns"
+        },
+        {
+            "title": "🌍 Country Website",
+            "desc": "React app for browsing and searching country information",
+            "tech": "React • JavaScript • CSS/Tailwind • Components",
+            "github": "https://github.com/deceaseblow/CountryApp"
+        }
+    ],
+    "skills": {
+        "frontend": [
+            {
+                "name": "JavaScript (ES6+)",
+                "level": 95
+            },
+            {
+                "name": "React.js",
+                "level": 90
+            },
+            {
+                "name": "Vue.js",
+                "level": 80
+            },
+            {
+                "name": "jquery",
+                "level": 60
+            },
+            {
+                "name": "HTML5",
+                "level": 95
+            },
+            {
+                "name": "CSS3",
+                "level": 90
+            },
+            {
+                "name": "Bootstrap",
+                "level": 75
+            },
+            {
+                "name": "Tailwind CSS",
+                "level": 70
+            }
+        ],
+        "backend": [
+            {
+                "name": "Python",
+                "level": 70
+            },
+            {
+                "name": "PHP",
+                "level": 60
+            },
+            {
+                "name": "java",
+                "level": 65
+            }
+        ],
+        "database": [
+            {
+                "name": "MySQL",
+                "level": 70
+            },
+            {
+                "name": "SQLite",
+                "level": 60
+            }
+        ],
+        "devops": [
+            {
+                "name": "Docker",
+                "level": 80
+            },
+            {
+                "name": "Git",
+                "level": 95
+            }
+        ]
+    },
+    "experience": [
+        {
+            "position": "Full-Stack Developer",
+            "company": "TechCorp Inc.",
+            "period": "2025 - Present",
+            "responsibilities": [
+                "Improved application performance by 40%"
+            ]
+        }
+    ],
+    "easterEggs": {
+        "jokes": [
+            "Why do programmers prefer dark mode? Because light attracts bugs!",
+            "How many programmers does it take to change a light bulb? None, that's a hardware problem! ",
+            "Why did the developer go broke? Because he used up all his cache! ",
+            "What's the object-oriented way to become wealthy? Inheritance! ",
+            "Why do Java developers wear glasses? Because they can't C#!",
+            "A SQL query goes into a bar, walks up to two tables and asks... \"Can I join you?\" ",
+            "Why did the programmer quit his job? He didn't get arrays! ",
+            "What do you call a programmer from Finland? Nerdic! 🇫🇮",
+            "Why don't programmers like nature? It has too many bugs! ",
+            "How do you comfort a JavaScript bug? You console it! "
+        ],
+        "fortunes": [
+            "A bug in the code is worth two in the documentation.",
+            "The best way to debug is to have never written the bug in the first place.",
+            "Code never lies, comments sometimes do.",
+            "There are only 10 types of people: those who understand binary and those who don't.",
+            "A programmer is someone who solves a problem you didn't know you had in a way you don't understand.",
+            "Programming is like writing a book... except if you miss a single comma on page 126, the whole thing makes no sense.",
+            "The most likely way for the world to be destroyed is by accident. This is why we run tests.",
+            "Real programmers count from 0.",
+            "It's not a bug – it's an undocumented feature.",
+            "The first 90% of the code takes 90% of the time. The remaining 10% takes the other 90% of the time."
+        ]
+    },
+    "commands": {
+        "help": {
+            "output": [
+                {
+                    "text": "",
+                    "className": "info"
+                },
+                {
+                    "text": "📖 AVAILABLE COMMANDS",
+                    "className": "success"
+                },
+                {
+                    "text": "═══════════════════════════════════════════════════",
+                    "className": "success"
+                },
+                {
+                    "text": "",
+                    "className": ""
+                },
+                {
+                    "text": "  <span class=\"command\">about</span>      - Learn more about me",
+                    "className": ""
+                },
+                {
+                    "text": "  <span class=\"command\">projects</span>   - View my projects",
+                    "className": ""
+                },
+                {
+                    "text": "  <span class=\"command\">skills</span>     - See my technical skills",
+                    "className": ""
+                },
+                {
+                    "text": "  <span class=\"command\">experience</span> - View work experience",
+                    "className": ""
+                },
+                {
+                    "text": "  <span class=\"command\">contact</span>    - Get my contact information",
+                    "className": ""
+                },
+                {
+                    "text": "",
+                    "className": ""
+                },
+                {
+                    "text": "🗂️  FILE SYSTEM COMMANDS",
+                    "className": "info"
+                },
+                {
+                    "text": "─────────────────────────────────────────────────────",
+                    "className": "info"
+                },
+                {
+                    "text": "  <span class=\"command\">ls</span>         - List directory contents",
+                    "className": ""
+                },
+                {
+                    "text": "  <span class=\"command\">cat</span> [file] - Display file contents",
+                    "className": ""
+                },
+                {
+                    "text": "  <span class=\"command\">pwd</span>        - Show current directory",
+                    "className": ""
+                },
+                {
+                    "text": "",
+                    "className": ""
+                },
+                {
+                    "text": "🎮 FUN COMMANDS",
+                    "className": "warning"
+                },
+                {
+                    "text": "─────────────────────────────────────────────────────",
+                    "className": "warning"
+                },
+                {
+                    "text": "  <span class=\"command\">joke</span>       - Get a programming joke",
+                    "className": ""
+                },
+                {
+                    "text": "  <span class=\"command\">fortune</span>    - Get your fortune",
+                    "className": ""
+                },
+                {
+                    "text": "  <span class=\"command\">coffee</span>     - Virtual coffee break",
+                    "className": ""
+                },
+                {
+                    "text": "",
+                    "className": ""
+                },
+                {
+                    "text": "🛠️  UTILITY COMMANDS",
+                    "className": "info"
+                },
+                {
+                    "text": "─────────────────────────────────────────────────────",
+                    "className": "info"
+                },
+                {
+                    "text": "  <span class=\"command\">clear</span>      - Clear terminal screen",
+                    "className": ""
+                },
+                {
+                    "text": "  <span class=\"command\">whoami</span>     - Display current user",
+                    "className": ""
+                },
+                {
+                    "text": "  <span class=\"command\">date</span>       - Show current date and time",
+                    "className": ""
+                },
+                {
+                    "text": "  <span class=\"command\">echo</span> [text]- Display text",
+                    "className": ""
+                },
+                {
+                    "text": "",
+                    "className": ""
+                }
+            ]
+        },
+        "about": {
+            "output": [
+                {
+                    "text": "",
+                    "className": "info"
+                },
+                {
+                    "text": "           ABOUT ME                  ",
+                    "className": "info"
+                },
+                {
+                    "text": "",
+                    "className": ""
+                },
+                {
+                    "text": "👋 Hi! I'm {name}, a passionate full-stack developer",
+                    "className": ""
+                },
+                {
+                    "text": "🚀 Experience: {experience}",
+                    "className": ""
+                },
+                {
+                    "text": "💻 Love working with modern JavaScript frameworks",
+                    "className": ""
+                },
+                {
+                    "text": "🎯 Always excited to learn new technologies",
+                    "className": ""
+                },
+                {
+                    "text": "",
+                    "className": ""
+                },
+                {
+                    "text": "<span class=\"success\">Current Focus:</span> {currentFocus}",
+                    "className": ""
+                },
+                {
+                    "text": "<span class=\"info\">Location:</span> {location}",
+                    "className": ""
+                },
+                {
+                    "text": "<span class=\"warning\">Status:</span> {status}",
+                    "className": ""
+                },
+                {
+                    "text": "",
+                    "className": ""
+                }
+            ]
+        },
+        "projects": {
+            "header": [
+                {
+                    "text": "",
+                    "className": "info"
+                },
+                {
+                    "text": "📂 MY PROJECTS",
+                    "className": "success"
+                },
+                {
+                    "text": "═══════════════════════════════════════════════════",
+                    "className": "success"
+                },
+                {
+                    "text": "",
+                    "className": ""
+                }
+            ],
+            "footer": [
+                {
+                    "text": "",
+                    "className": ""
+                },
+                {
+                    "text": "💡 Use \"cat projects.json\" to see project data in JSON format",
+                    "className": ""
+                }
+            ]
+        },
+        "skills": {
+            "header": [
+                {
+                    "text": "",
+                    "className": "info"
+                },
+                {
+                    "text": "🛠️  TECHNICAL SKILLS",
+                    "className": "success"
+                },
+                {
+                    "text": "═══════════════════════════════════════════════════",
+                    "className": "success"
+                },
+                {
+                    "text": "",
+                    "className": ""
+                }
+            ]
+        },
+        "experience": {
+            "header": [
+                {
+                    "text": "",
+                    "className": "info"
+                },
+                {
+                    "text": "💼 WORK EXPERIENCE",
+                    "className": "success"
+                },
+                {
+                    "text": "═══════════════════════════════════════════════════",
+                    "className": "success"
+                },
+                {
+                    "text": "",
+                    "className": ""
+                }
+            ]
+        },
+        "contact": {
+            "output": [
+                {
+                    "text": "",
+                    "className": "info"
+                },
+                {
+                    "text": "📞 CONTACT INFORMATION",
+                    "className": "success"
+                },
+                {
+                    "text": "═══════════════════════════════════════════════════",
+                    "className": "success"
+                },
+                {
+                    "text": "",
+                    "className": ""
+                },
+                {
+                    "text": "📧 Email:    <a href=\"mailto:{email}\" target=\"_blank\">{email}</a>",
+                    "className": "info"
+                },
+                {
+                    "text": "🐙 GitHub:   <a href=\"{github}\" target=\"_blank\">{github}</a>",
+                    "className": "info"
+                },
+                {
+                    "text": "💼 LinkedIn: <a href=\"{linkedin}\" target=\"_blank\">{linkedin}</a>",
+                    "className": "info"
+                },
+                {
+                    "text": "🌐 Website:  <a href=\"{website}\" target=\"_blank\">{website}</a>",
+                    "className": "info"
+                },
+                {
+                    "text": "📱 Phone:    {phone}",
+                    "className": "info"
+                },
+                {
+                    "text": "",
+                    "className": ""
+                },
+                {
+                    "text": "💾 Download resume: <a href=\"{resume}\" target=\"_blank\">{resume}</a>",
+                    "className": "warning"
+                },
+                {
+                    "text": "",
+                    "className": ""
+                },
+                {
+                    "text": "🚀 Let's build something amazing together!",
+                    "className": "success"
+                }
+            ]
+        },
+        "ls": {
+            "output": [
+                {
+                    "text": "",
+                    "className": "info"
+                },
+                {
+                    "text": "📁 Directory contents:",
+                    "className": "info"
+                },
+                {
+                    "text": "",
+                    "className": ""
+                },
+                {
+                    "text": "drwxr-xr-x  2 sabina sabina 4096 Dec 15 10:30 <span class=\"info\">projects/</span>",
+                    "className": ""
+                },
+                {
+                    "text": "drwxr-xr-x  2 sabina sabina 4096 Dec 15 10:30 <span class=\"info\">skills/</span>",
+                    "className": ""
+                },
+                {
+                    "text": "drwxr-xr-x  2 sabina sabina 4096 Dec 15 10:30 <span class=\"info\">experience/</span>",
+                    "className": ""
+                },
+                {
+                    "text": "-rw-r--r--  1 sabina sabina 1024 Dec 15 10:30 <span class=\"success\">README.md</span>",
+                    "className": ""
+                },
+                {
+                    "text": "-rw-r--r--  1 sabina sabina 2048 Dec 15 10:30 <span class=\"success\">resume.pdf</span>",
+                    "className": ""
+                },
+                {
+                    "text": "-rw-r--r--  1 sabina sabina  512 Dec 15 10:30 <span class=\"success\">projects.json</span>",
+                    "className": ""
+                },
+                {
+                    "text": "",
+                    "className": ""
+                }
+            ]
+        },
+        "whoami": {
+            "output": [
+                {
+                    "text": "sabina!!! hehe",
+                    "className": "success"
+                }
+            ]
+        },
+        "coffee": {
+            "output": [
+                {
+                    "text": "",
+                    "className": "info"
+                },
+                {
+                    "text": "                     (  )",
+                    "className": "warning"
+                },
+                {
+                    "text": "                      )(",
+                    "className": "warning"
+                },
+                {
+                    "text": "                  ............",
+                    "className": "warning"
+                },
+                {
+                    "text": "                  |          |]",
+                    "className": "warning"
+                },
+                {
+                    "text": "                  \\          /",
+                    "className": "warning"
+                },
+                {
+                    "text": "                   `--------`",
+                    "className": "warning"
+                },
+                {
+                    "text": "",
+                    "className": ""
+                },
+                {
+                    "text": "Here's your virtual coffee!",
+                    "className": "success"
+                },
+                {
+                    "text": "",
+                    "className": ""
+                },
+                {
+                    "text": "Fun fact: I run on coffee and clean code",
+                    "className": "info"
+                },
+                {
+                    "text": "Estimated caffeine level: 95% ████████████████████",
+                    "className": "success"
+                }
+            ]
+        }
+    }
+}
