@@ -1,13 +1,19 @@
-# React + Vite
+# Terminal Personal Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+This Terminal-like Personal Website is a React-based portfolio project that mimics the look and feel of a command-line terminal.  
+Users can navigate through sections such as projects, skills, and contact information using typed commands or interactive prompts.  
+The project combines a retro terminal aesthetic with React components and state management to deliver an engaging, interactive experience.
 
-Currently, two official plugins are available:
+## Key Features
+- Terminal-style interface with command input simulation  
+- Display of projects, skills, and personal information through commands  
+- Interactive and responsive design for desktop and mobile  
+- Typing animations and dynamic content rendering for realistic terminal behavior  
+- Component-based architecture for scalability and maintainability  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Terminal
+## Technologies Used
+- **Frontend:** React, React Hooks (useState, useEffect, custom hooks)  
+- **Styling:** CSS / Tailwind for terminal look and animations  
+- **Functionality:** Command parser, dynamic content rendering, interactive prompts  
+- **Design:** Responsive layout optimized for desktop and mobile
