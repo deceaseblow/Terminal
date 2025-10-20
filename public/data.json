@@ -16,7 +16,7 @@
         "resume": "website/sabina_cv.pdf"
     },
     "projects": [
-        {
+        {  
             "title": "🏡 Airbnb Clone",
             "desc": "Full-stack Airbnb clone with booking and listing functionality",
             "tech": "React • Node.js • Express • Render • CSS/Tailwind",

@@ -84,7 +84,7 @@ const TerminalPortfolio = () => {
 
     const [cmd, ...args] = command.trim().split(' ');
     const commandResult = handleCommand(cmd.toLowerCase(), args);
-    
+
     setOutput(prev => [...prev, ...commandOutput, ...commandResult]);
     setCurrentInput('');
   };
@@ -136,8 +136,8 @@ const TerminalPortfolio = () => {
         const skillsOutput = [...processCommandOutput(portfolioData.commands.skills.header)];
 
         Object.entries(portfolioData.skills).forEach(([category, skills]) => {
-          skillsOutput.push({ 
-            text: `<span class="info">${category.charAt(0).toUpperCase() + category.slice(1)}:</span>`, 
+          skillsOutput.push({
+            text: `<span class="info">${category.charAt(0).toUpperCase() + category.slice(1)}:</span>`,
             className: '',
             id: `skill-cat-${category}`
           });
@@ -169,8 +169,8 @@ const TerminalPortfolio = () => {
             id: `exp-period-${expIndex}`
           });
           exp.responsibilities.forEach((resp, respIndex) => {
-            expOutput.push({ 
-              text: `  • ${resp}`, 
+            expOutput.push({
+              text: `  • ${resp}`,
               className: '',
               id: `exp-resp-${expIndex}-${respIndex}`
             });
@@ -214,7 +214,7 @@ const TerminalPortfolio = () => {
         return [{ text: `/home/sabina${currentPath}`, className: 'info', id: 'pwd-output' }];
 
       case 'date':
-        return [{ text: new Date().toString(), className: 'info', id: 'date-output' }]; 
+        return [{ text: new Date().toString(), className: 'info', id: 'date-output' }];
 
       case 'echo':
         return [{ text: args.join(' '), className: 'success', id: 'echo-output' }];
@@ -255,17 +255,17 @@ const TerminalPortfolio = () => {
             { text: '█▓▒░Wake up, Neo... The Matrix has you...░▒▓█', className: 'success', id: 'matrix-5' },
             { text: '█▓▒░Follow the white rabbit 🐰░▒▓█', className: 'success', id: 'matrix-6' }
           ];
-          
+
           addOutputWithDelay(matrixLines, 500);
-          
+
           setTimeout(() => {
-            setOutput(prev => [...prev, 
-              { text: '', className: '', id: 'matrix-end-spacer' },
-              { text: 'Connection terminated by Agent Smith', className: 'error', id: 'matrix-end' }
+            setOutput(prev => [...prev,
+            { text: '', className: '', id: 'matrix-end-spacer' },
+            { text: 'Connection terminated by Agent Smith', className: 'error', id: 'matrix-end' }
             ]);
           }, matrixLines.length * 500 + 1000);
         }, 100);
-        
+
         return [{ text: '', className: 'info', id: 'matrix-start' }];
 
       case 'hack':
@@ -280,19 +280,19 @@ const TerminalPortfolio = () => {
             { text: 'Downloading files... ████████████████████ 100%', className: 'success', id: 'hack-5' },
             { text: 'Covering tracks... ████████████████████ 100%', className: 'success', id: 'hack-6' }
           ];
-          
+
           addOutputWithDelay(hackSteps, 800);
-          
+
           setTimeout(() => {
-            setOutput(prev => [...prev, 
-              { text: '', className: '', id: 'hack-end-spacer-1' },
-              { text: '🎯 HACK COMPLETE!', className: 'success', id: 'hack-complete' },
-              { text: 'Just kidding! HEHE GOTCHU', className: 'warning', id: 'hack-joke' },
-              { text: 'No systems were harmed in the making of this portfolio', className: 'info', id: 'hack-disclaimer' }
+            setOutput(prev => [...prev,
+            { text: '', className: '', id: 'hack-end-spacer-1' },
+            { text: '🎯 HACK COMPLETE!', className: 'success', id: 'hack-complete' },
+            { text: 'Just kidding! HEHE GOTCHU', className: 'warning', id: 'hack-joke' },
+            { text: 'No systems were harmed in the making of this portfolio', className: 'info', id: 'hack-disclaimer' }
             ]);
           }, hackSteps.length * 800 + 1000);
         }, 100);
-        
+
         return [{ text: '', className: 'info', id: 'hack-start' }];
 
       case 'cowsay':
@@ -382,10 +382,10 @@ const TerminalPortfolio = () => {
             { text: 'Just kidding! Everyone knows you use :q! to exit', className: 'success', id: 'vim-joke' },
             { text: '(But seriously, VS Code is my editor of choice)', className: 'info', id: 'vim-preference' }
           ];
-          
+
           setOutput(prev => [...prev, ...vimLines]);
         }, 2000);
-        
+
         return [{ text: '', className: 'info', id: 'vim-init' }];
 
       case 'secret':
@@ -437,18 +437,18 @@ const TerminalPortfolio = () => {
       e.preventDefault();
       const availableCommands = ['help', 'about', 'projects', 'skills', 'experience', 'contact', 'clear', 'ls', 'cat', 'whoami', 'pwd', 'date', 'echo', 'joke', 'fortune', 'coffee', 'matrix', 'hack', 'cowsay', 'sl', 'tree', 'sudo', 'vim', 'secret'];
       const matches = availableCommands.filter(cmd => cmd.startsWith(currentInput.toLowerCase()));
-      
+
       if (matches.length === 1) {
         setCurrentInput(matches[0]);
       } else if (matches.length > 1) {
-        setOutput(prev => [...prev, 
-          { text: '', className: '', id: 'tab-spacer' },
-          { text: 'Available completions:', className: 'info', id: 'tab-header' },
-          ...matches.map((match, index) => ({
-            text: `  ${match}`,
-            className: 'success',
-            id: `tab-match-${index}`
-          }))
+        setOutput(prev => [...prev,
+        { text: '', className: '', id: 'tab-spacer' },
+        { text: 'Available completions:', className: 'info', id: 'tab-header' },
+        ...matches.map((match, index) => ({
+          text: `  ${match}`,
+          className: 'success',
+          id: `tab-match-${index}`
+        }))
         ]);
       }
     }
@@ -460,7 +460,7 @@ const TerminalPortfolio = () => {
         inputRef.current.focus();
       }
     };
-    
+
     document.addEventListener('click', handleClick);
     return () => document.removeEventListener('click', handleClick);
   }, []);
@@ -477,7 +477,10 @@ const TerminalPortfolio = () => {
       </div>
 
       <div className="terminal-body" ref={terminalBodyRef}>
-        <ASCII_art />
+        <div className="hidden lg:block">
+          <ASCII_art />
+        </div>
+
         {output.map((line) => (
           <div key={line.id} className={`output-line ${line.className}`} dangerouslySetInnerHTML={{ __html: line.text }} />
         ))}
